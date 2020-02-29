@@ -1723,8 +1723,9 @@ input::-moz-focus-inner {
 	margin-right: 0
 }
 
-.home-content__buttons .btn:hover,
-.home-content__buttons .btn:focus {
+/*.home-content__buttons .btn:hover,
+.home-content__buttons .btn:focus {*/
+.home-content__buttons .btn:hover {
 	background: #fff!important;
 	color: #000
 }
@@ -2061,13 +2062,20 @@ html.no-csstransitions .home-content__main {
 .s-about {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
-	background-color: #39b54a;
+	padding-top: 25rem;
+	padding-bottom: 25rem;
+	/*background-color: #39b54a;*/
+	background-color: #222222;
 	color: #010507;
 	position: relative
 }
 
 .s-about .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, .25)
+}
+
+.s-about .section-header.dark.has-bottom-sep::before {
+	background-color: rgba(0, 0, 0, .25)
 }
 
 .about-desc {
